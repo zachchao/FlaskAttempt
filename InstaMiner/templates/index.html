@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>InstaMiner</title>
+  <link rel="icon" href="https://s3-us-west-2.amazonaws.com/instaminer/icon16.png">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+<body data-spy="scroll" data-target="#nav-links" data-offset="0">
+
+<style>
+  #nav-container{
+    max-width: 1024px;
+    position: relative;
+    margin: auto;
+    display: inherit;
+    width: 100%;
+  }
+  body{
+    font-family: 'Ubuntu', sans-serif;
+    //color: #747474;
+  }
+  #nav-logo{
+    height: 128px;
+    width: 128px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+    margin-left: -25px;
+  }
+  #jumbotron-inner-container{
+    max-width: 1024px;
+    position: relative;
+    margin: auto;
+    display: inherit;
+    width: 100%;
+  }
+  .number-circle{
+    //-webkit-box-shadow: 7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    //-moz-box-shadow:    7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    //box-shadow:         7px 7px 5px 0px rgba(50, 50, 50, 0.75);
+    background: #36393E;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.6em;
+    margin-right: 15px;
+    text-align: center;
+    width: 1.6em; 
+    font-size: 48px;
+  }
+  .footer{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+    bottom: 0;
+  }
+  #inner-footer-container{
+    max-width: 1024px;
+    width: 100%;
+    margin: auto;
+  }
+</style>
+
+<div class="container" style="margin-top: 80px">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #36393E">
+    <div id="nav-container">
+      <a class="navbar-brand" href="#" style="overflow: hidden`;">
+        <img id="nav-logo" src="https://s3-us-west-2.amazonaws.com/instaminer/Orig_Transparent_Words.png" class="d-inline-block align-top" alt="">
+      </a>
+      <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto" id="nav-links">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#start-anchor">Start</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq-anchor">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#plans-anchor">Plans</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us-jumbotron">About Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="main-container" class="container">
+    <div class="jumbotron" style="background-color: white; padding-top: 3rem; padding-bottom: 0px; padding-right: 0px; padding-left: 0px;">
+      <h1 style="font-size: 34px; text-align: center; margin-bottom: 50px; ">The #1 Free Instagram Bot</h1>
+      <div class="row">
+        <div class="col-lg" style="width: 100%; display: flex; justify-content: center; align-items: center;">
+          <ul style="font-size: 24px; list-style-type: none; text-align: center;">
+            <li><i class="fa fa-user"></i>&nbsp;&nbsp;&nbsp;Get 100's of new followers each week</li>
+            </br>
+            <li><i class="fa fa-heart"></i>&nbsp;&nbsp;&nbsp;Get 100's of new likes each week</li>
+            </br>
+            <li><i class="fa fa-key"></i>&nbsp;&nbsp;&nbsp;Never give us your password</li>
+            </br>
+            <li><i class="fa fa-users"></i>&nbsp;&nbsp;&nbsp;100% real user engagment</li>
+            </br>
+            <li><i class="fa fa-ban"></i>&nbsp;&nbsp;&nbsp;No hidden fees or in app purchases</li>
+          </ul>
+        </div><!-- List div -->
+        <div class="col-lg" style="box-shadow: 3px 1px 9px 1px rgba(0, 0, 0, 0.5); padding-bottom: 15px; padding-top: 10px;">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div>
+                  <h3 style="text-align: center; margin-bottom: 10px;">Bot controls are in the header</h3>
+                </div>
+                <img class="d-block w-100" src="https://s3-us-west-2.amazonaws.com/instaminer/Bot_Screen_0.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <div>
+                  <h3 style="text-align: center;">Follow from other's lists</h3>
+                </div>
+                <img class="d-block w-100" src="https://s3-us-west-2.amazonaws.com/instaminer/Bot_Screen_1.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <div>
+                  <h3 style="text-align: center;">Unfollow from other's lists</h3>
+                </div>
+                <img class="d-block w-100" src="https://s3-us-west-2.amazonaws.com/instaminer/Bot_Screen_2.png" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <div>
+                  <h3 style="text-align: center;">Like from tag pages</h3>
+                </div>
+                <img class="d-block w-100" src="https://s3-us-west-2.amazonaws.com/instaminer/Bot_Screen_3.png" alt="Fourth slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div><!-- Carousel Div -->
+      </div><!-- Row -->
+    </div><!-- Jumbotron -->
+
+    <div class="row">
+      <a class="anchor" id="start-anchor" style="margin-top: -100px;"></a>
+      <div class="jumbotron" id="start-jumbotron" style="width: 100%; text-align: center; padding-bottom: 50px; padding-top: 50px;">
+        <h5 style="font-size: 34px; text-align: center; margin-bottom: 50px;">Get Started!</h5>
+        <h5><span class="number-circle">1</span></h5>
+        <p style="font-size: 24px;">Download the extension here</p>
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <a class="btn btn-secondary" href="https://chrome.google.com/webstore/detail/instaminer-free/dalihokeelaicobgmlpepjfbohkcdiha" style="width: 120px;">Free</a>
+          <a class="btn btn-secondary" href="https://chrome.google.com/webstore/detail/instaminer-unlimited/ejhpbdladfbggnlheojgihjnpfmgpomd" style="width: 120px;">Unlimited</a>
+          <a class="btn btn-secondary disabled" style="width: 120px;">Desktop</a>
+        </div>
+        <p style="font-size: 12px;">Desktop version coming soon. Will be free and unlimited.</p>
+
+        <h5 style="margin-top: 75px;"><span class="number-circle">2</span></h5>
+        <p style="font-size: 24px;">After loading our Chrome extension, all you do is navigate to the Instagram page of your favorite celebrity and click the "Follow" button and our little bot takes over from there. It immediately starts scrolling down the list of followers and "Follows" each one, up to 60 per minute. To continue to use your browser, simply open a new page.</p>
+
+        <h5 style="margin-top: 75px;"><span class="number-circle">3</span></h5>
+        <p style="font-size: 24px;">Once the bot has followed a few thousand people, reload the page and press "Unfollow" and it will tidy up your list for you!</p>
+      </div><!-- Jumbotron -->
+    </div><!-- Row -->
+
+    <div class="row">
+      <a class="anchor" id="faq-anchor" style="margin-top: -80px;"></a>
+      <div id="faq-jumbotron" class="jumbotron" style="background-color: white; padding-top: 0px;">
+        <h5 style="font-size: 34px; text-align: center; margin-bottom: 50px; padding-top: 50px;">Frequently Asked Questions</h5>
+        
+        <h5>How does it work?</h5>
+        <p>Let me ask you this - Where do you find new people to follow? The explore page. There you find new content and new accounts to follow. By following celebrities who post similar content to yours, Instagram's explore algorithm shares your content to other users. For example, if you follow a bunch of cooking celebrities, Instagram knows you will have things in common with other people who follow the same people so it shares your posts to their explore page. The constant following and unfollowing cycle renews this and constantly broadcasts your posts to the maximum audience to get you real followers, likes and user engagement!</p>
+
+        <h5>How many followers can I expect?</h5>
+        <p>We have found that you get approximately 1 new follower for every 10 new people you follow.</p>
+
+        <h5>How does the liking bot work?</h5>
+        <p>When trying to grow an Instagram page, what's the best way for you to get new followers? You get involved. You follow other people and like their posts! They see you and many times follow you back! That's all there is to it, except our bot does all the work for you, 24 hours a day around the clock, subscribing to and liking up to 1000 people and posts a day.</p>
+
+        <h5>How fast should I run it?</h5>
+        <p>With the unlimited and desktop versions you can go up to 60 actions an hour but Instagram will block you for 24 hours if you go over 60 in an hour! I reccomend limiting it to 50 so you can still follow and unfollow who you want when your'e browsing Instagram but 60 an hour is the limit!</p>
+
+        <h5>What are the limits?</h5>
+        <p>Instagram only allows you to do 60 "Actions" per minute.  "Actions" can be either "Follow" or "Unfollow." For example, in a single hour, you could legally do 40 Follows and 20 Unfollows total. Any more than that would trigger an alarm on their end that your'e going too fast. But stay under that and they'll never be upset! "Likes" run on a separate counter and you can do up to 60 in an hour. Note the free version can only perform up to 20 total actions and 20 total likes an hour.</p>
+
+        <h5>What is the "Crypto Mining" that the desktop version does?</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tempor massa ultrices turpis ultrices, in dignissim neque facilisis. Phasellus at iaculis urna. Nam ex dolor, volutpat ut erat sit amet, vestibulum accumsan ligula. Nullam vitae augue purus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla leo erat, eleifend id blandit eget, sollicitudin nec nisi. Nullam accumsan, ligula nec fringilla sodales, dui erat efficitur felis, non ultrices lectus augue eget dui. Phasellus pulvinar rhoncus aliquam. Nunc scelerisque ligula metus, at efficitur quam pellentesque nec. Praesent sed enim at eros lobortis posuere. Nullam a diam nisi. Nam non mi dignissim, sagittis mauris id, pellentesque nunc.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <a id="plans-anchor" style="margin-top: -50px;"></a>
+      <div class="jumbotron" style="padding-top: 0px; width: 100%">
+        <h5 style="font-size: 34px; text-align: center; margin-bottom: 50px; padding-top: 50px;">Bot Plans</h5>
+        <div class="card-deck mb-3 text-center">
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Free</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$0</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>20 follows / unfollows per hour</li>
+                <li>20 likes per hour</li>
+                <li>No crypto mining</li>
+              </ul>
+              <a href="https://chrome.google.com/webstore/detail/instaminer-free/dalihokeelaicobgmlpepjfbohkcdiha" class="btn btn-lg btn-block btn-secondary">Download</a>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Unlimited</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$6</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>60 follows / unfollows per hour</li>
+                <li>60 likes per hour</li>
+                <li>No crypto mining</li>
+              </ul>
+              <a href="https://chrome.google.com/webstore/detail/instaminer-unlimited/ejhpbdladfbggnlheojgihjnpfmgpomd" class="btn btn-lg btn-block btn-secondary">Download</a>
+            </div>
+          </div>
+          <div class="card mb-4 shadow-sm">
+            <div class="card-header">
+              <h4 class="my-0 font-weight-normal">Desktop</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$0</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>60 follows / unfollows per hour</li>
+                <li>60 likes per hour</li>
+                <li>Crypto mining</li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-block btn-secondary disabled">In Progress</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div id="about-us-jumbotron" class="jumbotron" style="padding-top: 0px; background-color: white;">
+        <h5 style="font-size: 34px; text-align: center; margin-bottom: 50px; padding-top: 50px;">About Us</h5>
+        <p style="font-size: 24px;">The site, extensions and desktop app are all made by me, Zachary Chao. I am a computer science undergrad at UC Berkeley. I taught myself to code a few years ago by making my first Instagram bot for my sister. I have decided to make InstaMiner to give a free Instagram bot to people like my sister who need it. The vision of InstaMiner was to make a completely free bot that gained revenue through mining cryptocurrency. So if you want a restriction-free bot that costs nothing you can download the desktop app. I hope to make the bot better with time so please send me any ideas you have which would make the bot better. Thank you for using InstaMiner!</p>
+      </div>
+    </div>
+  </div><!-- #main-container -->
+</div><!-- Container -->
+
+<footer class="footer">
+  <div class="container" id="inner-footer-container">
+    <p style="margin-bottom: 0px;">© 2018 &nbsp; Zachary Chao. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
